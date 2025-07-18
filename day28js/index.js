@@ -13,3 +13,4 @@ me.addEventListener('click', function(event){
     me.textContent = "you are gay";
     console.log(event.type);
 })
+
