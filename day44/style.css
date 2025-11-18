@@ -112,12 +112,24 @@ header {
     align-items: center;
     backdrop-filter: blur(20px);
     overflow: hidden;
+    transition: .2s ease;
+    transform: scale(0);
+    transition: transform .5s ease, height .2s ease;
+    margin-top:4rem;
    
     
 
 
 
 }
+.wrapper.active-popup{
+    transform: scale(1);
+}
+.wrapper.active{
+    height: 520px;
+}
+
+
 .wrapper .icon-closer{
     position: absolute;
     top: 0px;
@@ -136,6 +148,29 @@ header {
    cursor: pointer;
    z-index: 1;
 
+
+}
+
+
+.wrapper .form-box.login{
+    /* display: none; */
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+.wrapper.active .form-box.login{
+    transform: none;
+    transform: translateX(-400px);
+}
+
+.wrapper .form-box.registration{
+    position: absolute;
+    transform: translateX(400px);
+    transition: none;
+    
+}
+.wrapper.active .form-box.registration{
+     transition: transform .18s ease;
+    transform: translateX(0);
 
 }
 
