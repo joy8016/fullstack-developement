@@ -1,0 +1,33 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grandparent{
+    background: #000;
+    width: 100%;
+    height: 50vh;
+    color: #fff;
+
+    padding: 4rem;
+    font-size: 2rem;
+    
+}
+.parent{
+    background: red;
+    width: 100vw;
+    /* height: 25vh; */
+    padding: 5rem;
+}
+
+.child
+{
+    background: lightseagreen;
+    padding: 5rem;
+}
+.child2{
+    background: green;
+    padding: 2rem;
+}
