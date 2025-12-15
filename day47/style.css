@@ -1,25 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html, body{
+html,
+body {
     width: 100%;
     height: 100%;
     color: #fff;
 }
-#main{
+
+#main {
     width: 100%;
 }
 
-#hero{
+#hero {
     width: 100%;
     height: 100vh;
     background: black;
-    
+
 }
-#nav{
+
+#nav {
     padding: 25px 40px;
     color: #fff;
     display: flex;
@@ -27,19 +30,21 @@ html, body{
     align-items: center;
 
 }
-#nav a{
+
+#nav a {
     color: #fff;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5vw;
 }
-#heading{
+
+#heading {
     /* background: red; 
     */
     padding: 1rem;
     opacity: .5;
 }
 
-#heading h1{
+#heading h1 {
     font-size: 9vw;
 
     font-weight: 300;
@@ -48,57 +53,117 @@ html, body{
 
 
 }
-#heading .secondh1{
-    margin-left: 200px;
+
+#heading .secondh1 {
+    margin-left: 13vw;
 }
 
-.blocktext{
-    width:fit-content;
+.blocktext {
+    width: fit-content;
 }
 
-.blocktext h5{
+.blocktext h5 {
     text-align: right;
     font-size: 1vw;
 }
 
-.smallheading{
+.smallheading {
     margin-top: 90px;
     text-transform: uppercase;
     font-size: 1vw;
     opacity: .7;
 
 }
-.smallheading h5{
+
+.smallheading h5 {
     text-align: right;
     padding-right: 1.9rem;
 }
-.footer{
+
+.footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:  0 1vw;
+    padding: 0 1vw;
     position: absolute;
     bottom: 3%;
     width: 100%;
 
-    
-    
+
+
 }
 
-.footer a{
+.footer a {
     color: #fff;
-    text-decoration: none ;
+    text-decoration: none;
     text-transform: uppercase;
     font-size: 1vw;
-   
+
 
 }
-.iconSet{
+
+.iconSet {
     display: flex;
     gap: .5rem;
 }
-.iconSet .circle{
+
+.iconSet .circle {
     font-size: 1vw;
     background: #0000002f;
 }
 
+#secondPage {
+    width: 100%;
+    background: #000;
+    padding-top: 5vw;
+    height: 100vh;
+
+
+
+
+
+
+}
+
+.elem {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #888;
+    padding: 3vw .1vw 3vw 3vw;
+    width: 80vw;
+    align-items: center;
+    border-bottom: 1px solid #888;
+    margin-left: 3vw;
+     cursor: pointer;
+
+
+
+
+
+}
+
+.elem h1 {
+    font-size: 6vw;
+    text-transform: uppercase;
+    color: #888;
+    opacity: .8;
+
+
+}
+.elem h6{
+    font-size: 1vw;
+    color: #999;
+}
+
+.elem img{
+    position: absolute;
+    height: 140%;
+    z-index: 999;
+    display: none;
+   
+}
+
+#about{
+    
+}
